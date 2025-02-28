@@ -18,7 +18,7 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 //--------------------[ SESSION ID ]----------------------//
 
-global.SESSION_ID = process.env.SESSION_ID || '' 
+global.SESSION_ID = process.env.SESSION_ID || 'XPLOADER-BOT:~erBgzLpS#onbIiWCZ2Mgwsp9LLTe0Jo4ms2SFyBUZa8M1x7eQTT0' 
 //Enter your Xploader session id here; must start with XPLOADER-BOT:~
 
 //--------------------[ BOT NAME ]----------------------//
@@ -27,7 +27,7 @@ global.botname = process.env.BOT_NAME || 'CypherX'
 
 //-----------------[ OWNER NUMBER ]------------------//
 
-global.ownernumber = process.env.OWNER_NUMBER || '254754783972' 
+global.ownernumber = process.env.OWNER_NUMBER || '2348163701202' 
 
 //--------------------[ SUDO ]--------------------------//
 
@@ -37,7 +37,7 @@ global.sudo = process.env.SUDO ? process.env.SUDO.split(',') : ['254796180105', 
 
 //-----------------[ OWNER NAME ]------------------//
 
-global.ownername = process.env.OWNER_NAME || 'Tylor' 
+global.ownername = process.env.OWNER_NAME || 'Peter' 
 
 //------------[ STICKER PACKNAME ]-----------------//
 
@@ -53,7 +53,7 @@ global.prefixz = process.env.BOT_PREFIX || '.'
 
 //-----------------[ BOT'S MODE ]-----------------------//
 
-global.mode = process.env.MODE || 'public';
+global.mode = process.env.MODE || 'private';
 // Set 'private' to enable private mode
 // Set 'public' to enable public mode
 // Set 'group' to enable only group
@@ -65,7 +65,7 @@ global.statusemoji = process.env.STATUS_EMOJI || '🧡'
 
 //---------------[ AUTO VIEW STATUS ]---------------//
 
-global.autoviewstatus = process.env.AUTO_STATUS_VIEW || 'true'
+global.autoviewstatus = process.env.AUTO_STATUS_VIEW || 'false'
 // set true to enable and false to disable auto status view
 
 //--------------[ AUTO REACT STATUS ]--------------//
